@@ -1,6 +1,21 @@
 
-# Created by https://www.gitignore.io/api/venv,python,pycharm,virtualenv,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=venv,python,pycharm,virtualenv,visualstudiocode
+# Created by https://www.gitignore.io/api/git,venv,python,pycharm,virtualenv,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=git,venv,python,pycharm,virtualenv,visualstudiocode
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### PyCharm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -223,4 +238,4 @@ pip-selfcheck.json
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/venv,python,pycharm,virtualenv,visualstudiocode
+# End of https://www.gitignore.io/api/git,venv,python,pycharm,virtualenv,visualstudiocode
